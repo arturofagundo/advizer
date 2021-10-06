@@ -1,0 +1,28 @@
+[
+  {
+    "institution": "Fidelity",
+    "name": "Joint WROS",
+    "filename": "Personal_Account_Positions.csv",
+    "taxable": "True",
+    "headers": {
+      "name": "Account Name/Number",
+      "symbol": "Symbol",
+      "description": "Description",
+      "num_shares": "Quantity",
+      "share_price": "Last Price"
+    }
+  },
+  {
+    "institution": "Vanguard",
+    "name": "Acme 401k",
+    "filename": "Employer_Account_Positions.csv",
+    "taxable": "False",
+    "headers": {
+      "name": "Plan Name",
+      "symbol": "Symbol",
+      "description": "Fund Name",
+      "num_shares": "Shares",
+      "share_price": "Price"
+    }
+  }
+]

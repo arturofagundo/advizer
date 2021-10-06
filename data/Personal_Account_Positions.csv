@@ -1,0 +1,7 @@
+﻿Account Name/Number,Symbol,Description,Quantity,Last Price,Last Price Change,Current Value,Today's Gain/Loss Dollar,Today's Gain/Loss Percent,Total Gain/Loss Dollar,Total Gain/Loss Percent,Percent Of Account,Cost Basis,Cost Basis Per Share,Type
+ASDF1234,FSKAX,FIDELITY TOTAL MARKET INDEX FUND,1000,$10.,n/a,"$10,000.0",n/a,n/a,n/a,n/a,n/a,n/a,n/a,Cash,
+ASDF1234,CASH,FIDELITY GOVERNMENT MONEY MARKET,"1000.",$1.00,$0.00,"$10,000.",n/a,n/a,n/a,n/a,9.04%,n/a,n/a,Cash,
+ASDF1234,FZDXX,FIDELITY MMKT PREMIUM CLASS,"75,000.00",$1.00,$0.00,"$75,000.00",n/a,n/a,n/a,n/a,n/a,n/a,n/a,Cash,
+ASDF1234,SCZ,ISHARES TR EAFE SML CP ETF,1000,$10.,n/a,"$10,000.0",,n/a,n/a,n/a,n/a,n/a,n/a,n/a,Cash,
+ASDF1234,IPAC,ISHARES CORE MSCI PACIFIC ETF,1000,$10.,n/a,"$10,000.0",n/a,n/a,n/a,n/a,n/a,n/a,n/a,Cash,
+ASDF1234,IEUR,ISHARES CORE MSCI EUROPE ETF,1000,$10.,n/a,"$10,000.0",n/a,n/a,n/a,n/a,n/a,n/a,n/a,Cash,
