@@ -1,0 +1,50 @@
+[
+  {
+    "asset_class": "Investment Grade Bonds",
+    "allocation": ".1"
+  },
+  {
+    "asset_class": "High Yield Bonds",
+    "allocation": ".05"
+  },
+  {
+    "asset_class": "Inflation Protected Bonds",
+    "allocation": ".05"
+  },
+  {
+    "asset_class": "Core U.S.",
+    "allocation": ".2667"
+  },
+  {
+    "asset_class": "Small Cap",
+    "allocation": ".1333"
+  },
+  {
+    "asset_class": "Microcap",
+    "allocation": ".0667"
+  },
+  {
+    "asset_class": "Real Estate",
+    "allocation": ".1067"
+  },
+  {
+    "asset_class": "Pacific Rim Large",
+    "allocation": ".0533"
+  },
+  {
+    "asset_class": "Europe Large",
+    "allocation": ".0533"
+  },
+  {
+    "asset_class": "International Small Cap Value",
+    "allocation": ".0667"
+  },
+  {
+    "asset_class": "Emerging Markets",
+    "allocation": ".0533"
+  },
+  {
+    "asset_class": "Cash",
+    "allocation": ".0"
+  }
+]
