@@ -220,7 +220,8 @@ class Portfolio:
         logging.info('Initial objective fn value: %f', _objective_fn(self._df, target, x0))
         cons = [self._get_linear_constraint()]
         solution = optimize.minimize(functools.partial(_objective_fn, self._df, target),
-                                     x0, method='SLSQP', bounds=bnds, constraints=cons, tol=1e-10)
+                                     x0, method='SLSQP', bounds=bnds, constraints=cons, tol=1e-10,
+                                     options={'maxiter': 200})
         if not solution.success:
             raise ResultError(f"Cash allocation failed: {solution.message}")
         result = []
