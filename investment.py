@@ -64,10 +64,13 @@ class Fund:
         return self.name
 
 
-LOOKUP: Dict[str, AssetClass] = dict(SCZ=AssetClass.MICRO_CAP,
+LOOKUP: Dict[str, AssetClass] = dict(VFFSX=AssetClass.CORE_US,
+                                     VEXRX=AssetClass.SMALL_CAP,
+                                     SCZ=AssetClass.MICRO_CAP,
                                      FSKAX=AssetClass.CORE_US,
                                      IEUR=AssetClass.EUROPE_LARGE,
                                      IPAC=AssetClass.PACIFIC_RIM_LARGE,
+                                     x0338=AssetClass.INVESTMENT_GRADE_BONDS,
                                      VBTIX=AssetClass.INVESTMENT_GRADE_BONDS,
                                      CRISX=AssetClass.SMALL_CAP,
                                      VNQ=AssetClass.REAL_ESTATE,

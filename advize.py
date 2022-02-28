@@ -21,10 +21,11 @@ import pathlib
 import portfolio
 
 FLAGS = flags.FLAGS
-flags.DEFINE_string('current', 'data.json',
+flags.DEFINE_string('current', 'accounts.json',
                     'List of files containing current allocation. One file per investment account')
 flags.DEFINE_string('target', 'target.json', 'Target Asset Allocation.')
 flags.DEFINE_string('account_dir', 'data', 'Directory containing account data and target allocation')
+flags.DEFINE_bool('verbose', False, 'Set logging to verbose')
 
 
 def main(unused_argv):
@@ -32,6 +33,8 @@ def main(unused_argv):
         FLAGS.log_dir = 'logs'
     print('All logs being dumped to', FLAGS.log_dir)
     logging.get_absl_handler().use_absl_log_file()
+    if FLAGS.verbose:
+        logging.set_verbosity(logging.DEBUG)
     # Use a breakpoint in the code line below to debug your script.
 
     target_path = pathlib.Path(FLAGS.account_dir, FLAGS.target)
